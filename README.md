@@ -16,6 +16,10 @@ $.get("./api.php?getStatus")
 
 Update $asmxURL with the link to your ASMX file
 
+```php
+$asmxURL = "http://webcrawleralexbbt.cloudapp.net/api.asmx/";
+```
+
 
 Place in same folder as "api.asmx/"
 
