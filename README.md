@@ -2,7 +2,16 @@
 Redirect local asmx calls through php to a web asmx, used for frontend development of Azure Sites
 
 
-Replace all calls to "api.asmx/" with "api.php?"
+Replace all calls to "api.asmx/" with "api.php?", So:
+``` Javascript
+$.get("./api.asmx/getStatus")
+```
+
+becomes
+
+```Javascript
+$.get("./api.php?getStatus")
+```
 
 
 Update $asmxURL with the link to your ASMX file

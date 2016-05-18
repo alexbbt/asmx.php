@@ -2,6 +2,7 @@
 
 	/*
 	 * Replace all calls to "api.asmx/" with "api.php?"
+	 * So $.get("./api.asmx/getStatus") becomes $.get("./api.php?getStatus")
 	 * Update $asmxURL with the link to your ASMX file
 	 * Place in same folder as "api.asmx/"
 	 * Run a local PHP server in the root folder
